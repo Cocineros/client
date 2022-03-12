@@ -4,9 +4,12 @@ import Nav from './components/nav/Nav'
 import Home from './components/home/Home';
 import Login from './components/login/Login';
 import Signup from './components/signup/Signup';
+import Markdown from './components/markdown/Markdown';
 
 
 function App() {
+  console.log("markdown", typeof Markdown)
+
   return (
       <>
         <Nav/>
@@ -15,6 +18,7 @@ function App() {
           <Route path='/login' element={ <Login />} />
           <Route path='/signup' element={ <Signup />} />
         </Routes>
+        <Markdown />
       </>
   );
 }
