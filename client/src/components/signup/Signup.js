@@ -3,7 +3,7 @@ import './signup.css'
 export default function Signup() {
     return (
         <>
-            <div className="signup">
+            {/* <div className="signup"> */}
 
                 <h2>Create a new account</h2>
 
@@ -26,7 +26,7 @@ export default function Signup() {
                     <button type="sumbit">Submit</button>
                 </div>
                 <h3>Already have an account? <a href="/login">Log in</a></h3>
-            </div>
+            {/* </div> */}
         </>
     )
 }

@@ -3,9 +3,9 @@ import './login.css'
 export default function Login() {
     return (
         <>
-            <div className="login">
+            {/* <div className="login"> */}
 
-                <h2>Log in to myCookbook</h2>
+                {/* <h2>Log in to myCookbook</h2> */}
 
                 <form className="login-form">
                     <div className="form-group">
@@ -19,7 +19,7 @@ export default function Login() {
                     <button type="sumbit">Submit</button>
                 </div>
                 <h3>Don't have an account? <a href="/signup">Sign up</a></h3>
-            </div>
+            {/* </div> */}
         </>
     )
 }

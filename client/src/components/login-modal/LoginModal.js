@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Modal, Button } from 'antd';
-import { NavLink } from 'react-router-dom'
-import './landing.css'
-import Signup from '../signup/Signup';
+import Login from '../login/Login';
 
-export default function Landing(){
+
+
+export default function LoginModal(){
   const [isModalVisitble, setIsModalVisible] = useState(false);
 
   const showModal = () => {
@@ -22,16 +22,16 @@ export default function Landing(){
         <div className="landing-container">
             <h1>my cookbook</h1>
             <div className="buttons">
-            <Button id="signup-btn" type="primary" onClick={showModal}>
-          signup
+            <Button type="primary" onClick={showModal}>
+          Login
         </Button>
         <Modal
-          title="Signup"
+          title="Login to Bumbu"
           visible={isModalVisitble}
           onOk={handleOk}
           onCancel={handleCancel}
         >
-          <Signup/>
+          <Login />
         </Modal>
                 {/* <NavLink className="button" to="/signup">Signup</NavLink>
                 <NavLink className="button" to="/login">Login</NavLink> */}
