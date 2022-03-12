@@ -6,6 +6,7 @@ import Login from './components/login/Login';
 import Signup from './components/signup/Signup';
 import Markdown from './components/markdown/Markdown';
 
+import 'antd/dist/antd.css';
 
 function App() {
   console.log("markdown", typeof Markdown)
