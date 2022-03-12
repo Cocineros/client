@@ -15,9 +15,7 @@ export default function Login() {
                         <input placeholder="Password" type="text" id="password" required="true" />
                     </div>
                 </form>
-                <div>
-                    <button type="sumbit">Submit</button>
-                </div>
+
                 <h3>Don't have an account? <a href="/signup">Sign up</a></h3>
             {/* </div> */}
         </>

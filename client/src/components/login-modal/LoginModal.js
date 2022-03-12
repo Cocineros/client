@@ -18,6 +18,7 @@ export default function LoginModal(){
   const handleCancel = () => {
     setIsModalVisible(false);
   };
+
     return (
         <div className="landing-container">
             <h1>my cookbook</h1>
@@ -30,7 +31,12 @@ export default function LoginModal(){
           visible={isModalVisitble}
           onOk={handleOk}
           onCancel={handleCancel}
-        >
+          footer={
+         <Button key="submit" type="primary" onClick={handleOk}>
+              Submit
+        </Button>
+          }
+            >
           <Login />
         </Modal>
                 {/* <NavLink className="button" to="/signup">Signup</NavLink>

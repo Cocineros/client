@@ -1,4 +1,4 @@
-import Landing from '../landing/Landing'
+import Landing from '../landing/SignupModal
 import Card from '../card/Card'
 import Testimonial from '../testimonal/Testimonial'
 import About from '../about/About'
