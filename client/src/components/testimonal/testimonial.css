@@ -2,6 +2,10 @@
     display: flex;
     justify-content: center;
     height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
 h1 {
@@ -9,21 +13,37 @@ h1 {
 }
 
 .test1 {
-    
+    width: 310px;
+    display: flex;
+    flex-direction: row-reverse;
+
+
 }
 
 .test2 {
+    width: 300px;
+    display: flex;
+    /* align-items: flex-end; */
 
 }
 
 .test3 {
+    width: 300px;
+    display: flex;
+    flex-direction: row-reverse;
 
 }
 
 .test4 {
+    width: 300px;
+    display: flex;
 
 }
 
 .test5 {
+    width: 300px;
+    display: flex;
+    flex-direction: row-reverse;
 
 }
+
