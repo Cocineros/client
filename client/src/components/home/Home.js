@@ -1,4 +1,4 @@
-import Landing from '../landing/SignupModal
+import SignupModal from '../signup-modal/SignupModal'
 import Card from '../card/Card'
 import Testimonial from '../testimonal/Testimonial'
 import About from '../about/About'
@@ -9,7 +9,7 @@ import './home.css'
 export default function Home() {
     return (
         <>
-        <Landing/>
+        <SignupModal/>
         <LoginModal />
         <About/>
         <Card/>
