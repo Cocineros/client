@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Modal, Button } from 'antd';
 import { NavLink } from 'react-router-dom'
-import './landing.css'
+import './signupModal.css'
 import Signup from '../signup/Signup';
 
-export default function Landing(){
+export default function SignupModal(){
   const [isModalVisitble, setIsModalVisible] = useState(false);
 
   const showModal = () => {
