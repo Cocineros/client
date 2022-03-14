@@ -33,7 +33,7 @@ export default function LoginModal(){
           onCancel={handleCancel}
           footer={
          <Button key="submit" type="primary" onClick={handleOk}>
-              Submit
+              Login
         </Button>
           }
             >

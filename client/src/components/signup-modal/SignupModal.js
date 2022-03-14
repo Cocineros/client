@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Modal, Button } from 'antd';
-import { NavLink } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
 import './signupModal.css'
 import Signup from '../signup/Signup';
 
@@ -23,13 +23,16 @@ export default function SignupModal(){
             <h1>my cookbook</h1>
             <div className="buttons">
             <Button id="signup-btn" type="primary" onClick={showModal}>
-          signup
-        </Button>
+Sign up        </Button>
         <Modal
-          title="Signup"
+          title="Create a new account"
           visible={isModalVisitble}
           onOk={handleOk}
           onCancel={handleCancel}
+          footer={
+            <Button key="submit" type="primary" onClick={handleOk}>
+                 Signup
+           </Button>}
         >
           <Signup/>
         </Modal>
