@@ -7,8 +7,25 @@
     font-size: large;
 }
 
-.sidebar, .layout{
+.sidebar {
     background-color: transparent;
+}
+
+.dash-nav {
+    text-align: left;
+    margin-left: 2rem;
+
+}
+.layout{
+    background-color: transparent;
+}
+
+.search {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    font-size: x-large;
 }
 
 .vl {

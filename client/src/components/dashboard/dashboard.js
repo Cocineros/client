@@ -2,7 +2,10 @@ import 'antd/dist/antd.css';
 import { Input, Space } from 'antd';
 import { AudioOutlined } from '@ant-design/icons';
 import { Layout } from 'antd';
-import LoginModal from '../login-modal/LoginModal';
+import {
+    PlusSquareFilled,
+    LoginOutlined
+  } from '@ant-design/icons';
 import './dashboard.css'
 
 const { Header, Footer, Sider, Content } = Layout;
@@ -13,8 +16,8 @@ export default function Dashboard() {
     const suffix = (
         <AudioOutlined
             style={{
-                // fontSize: 16,
-                // color: '#1890ff',
+                fontSize: 16,
+                color: '#1890ff',
             }}
         />
     );
@@ -25,8 +28,13 @@ export default function Dashboard() {
             <Layout className ="layout">
             <Sider className="sidebar">
             <Space direction="vertical">
-                <Search placeholder="search for recipe" onSearch={onSearch} style={{ width: 200 }} />
+                <Search className="search" placeholder="search for recipe" onSearch={onSearch} style={{ width: 200 }} />
             </Space>
+            <div class="dash-nav">
+            <a href="/addRecipe"><h3><PlusSquareFilled className="btn" />&nbsp; Add a Recipe</h3></a>
+            <br/>
+            <a href="/"><h3><LoginOutlined className="btn" />&nbsp; Logout</h3></a>
+            </div>
             </Sider>
             <div class="vl"></div>
             <Content>
