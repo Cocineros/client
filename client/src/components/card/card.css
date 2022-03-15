@@ -1,9 +1,32 @@
 .card-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 50vh;
+    height: 100vh;
 }
 
 h1 {
-    vertical-align: middle;
+display: flex;
+justify-content: center;
+}
+
+.recipe-detail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.recipe-card {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.dish-details {
+    margin-top: 10px;
+}
+
+#add-recipe {
+
 }

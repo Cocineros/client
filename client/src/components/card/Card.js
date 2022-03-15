@@ -5,17 +5,18 @@ export default function Card() {
         <div className="card-container">
             <h1>card example</h1>
             <div className="recipe-card">
-            <h1>Add a recipe</h1>
+            <h2 id="add-recipe">Add a recipe</h2>
             <br></br>
-            <h2>Dish name:</h2>
+            <h3>Dish name:</h3>
             <input placeholder= "Enter dish name here"></input>
             <input placeholder= "Enter time to make dish here"></input>
+            <br></br>
             <div className='recipe-detail-container'>
-                <h2>Ingredients:</h2>
+                <h3>Ingredients:</h3>
                 <input placeholder= "Enter ingredients here"></input>
-                <h2>Directions:</h2>
+                <h3>Directions:</h3>
                 <input placeholder= "Enter directions here"></input>
-                <h2>Upload image:</h2>
+                <h3>Upload image:</h3>
                 <input placeholder= "Optional: upload image of dish here"></input>
             </div>
         </div>
