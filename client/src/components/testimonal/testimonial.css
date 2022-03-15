@@ -1,49 +1,41 @@
 .testimonial-container {
     display: flex;
-    justify-content: center;
     height: 100vh;
     flex-direction: column;
-    display: flex;
     justify-content: space-around;
-    text-align: center;
 }
 
 h1 {
     vertical-align: middle;
 }
 
+h2 {
+    width: 80%
+}
+
 .test1 {
-    width: 310px;
+    width: 400px;
     display: flex;
     flex-direction: row-reverse;
-
 
 }
 
 .test2 {
-    width: 300px;
+    width: 400px;
+    left: 600px;
     display: flex;
-    /* align-items: flex-end; */
-
+    position: static;
+    float: right;
 }
 
 .test3 {
-    width: 300px;
+    width: 400px;
     display: flex;
     flex-direction: row-reverse;
 
 }
 
-.test4 {
-    width: 300px;
-    display: flex;
-
-}
-
-.test5 {
-    width: 300px;
-    display: flex;
-    flex-direction: row-reverse;
-
+.avatar {
+    width: 55px;
 }
 
