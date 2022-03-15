@@ -30,7 +30,7 @@ Sign up        </Button>
           onOk={handleOk}
           onCancel={handleCancel}
           footer={
-            <Button key="submit" type="primary" onClick={handleOk}>
+            <Button href="/dashboard" key="submit" type="primary" onClick={handleOk}>
                  Signup
            </Button>}
         >
