@@ -5,6 +5,14 @@
     justify-content: space-around;
 }
 
+.test-containers {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
 h1 {
     vertical-align: middle;
 }
@@ -24,8 +32,8 @@ h2 {
     width: 400px;
     left: 600px;
     display: flex;
-    position: static;
-    float: right;
+    position: absolute;
+    right: 0;
 }
 
 .test3 {
@@ -35,7 +43,5 @@ h2 {
 
 }
 
-.avatar {
-    width: 55px;
-}
+
 
