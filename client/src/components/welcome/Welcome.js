@@ -11,10 +11,12 @@ export default function Welcome() {
                     <img id="home-logo" src={LogoArtwork} alt="bumbu homepage logo" />
                 </div>
                 <div id="welcome-text-container">
-                    <p className="welcome-text" id="phonetics">boom•boo</p>
-                    <p className="welcome-text">the Indonesian word for spice</p>
-                    <p className="welcome-text">write and save your favorite recipes right here </p>
-                    <p className="welcome-text">and access them from anywhere in the world</p>
+                    <div id="phonetics-container"> 
+                    <p className="welcome-text" id="text-line-one">/boom • boo/</p>
+                    <p className="welcome-text" id="text-line-two">the Indonesian word for spice</p>
+                    </div>
+                    <p className="welcome-text">Write and save your favorite recipes right here </p>
+                    <p className="welcome-text">and access them from anywhere in the world!</p>
 
                 </div>
             </div>

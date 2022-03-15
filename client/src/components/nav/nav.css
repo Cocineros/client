@@ -1,7 +1,7 @@
 nav {
-    height:17vh;
-    background-color: #B99566; 
-    opacity: 0.9;
+    height:10vh;
+    /* height: 17vh; */
+    background-color: #cead83; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,9 +25,15 @@ nav {
     align-items: center;
 }
 
-#bumbu-name{
+/* #bumbu-name{
     height: 30vh;
     margin-top: 8em;
     margin-left: -4em;
+} */
+
+#bumbu-logo{
+    height: 25vh;
+    /* margin-top: 0; */
+    margin-left: -6em;
 }
 

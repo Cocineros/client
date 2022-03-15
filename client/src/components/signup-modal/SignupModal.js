@@ -22,7 +22,7 @@ export default function SignupModal(){
         <div className="landing-container">
             <h1>my cookbook</h1>
             <div className="buttons">
-            <Button id="signup-btn" type="primary" onClick={showModal}>
+            <Button className="buttons" id="signup-btn" onClick={showModal}>
 Sign up        </Button>
         <Modal
           title="Create a new account"
@@ -30,7 +30,7 @@ Sign up        </Button>
           onOk={handleOk}
           onCancel={handleCancel}
           footer={
-            <Button href="/dashboard" key="submit" type="primary" onClick={handleOk}>
+            <Button className="buttons" href="/dashboard" key="submit" onClick={handleOk}>
                  Signup
            </Button>}
         >
