@@ -1,0 +1,21 @@
+.dash-container{
+   margin: 2rem;
+}
+
+.header {
+    margin-left: 5rem;
+    font-size: large;
+}
+
+.sidebar, .layout{
+    background-color: transparent;
+}
+
+.vl {
+    border-left: 2px solid rgb(221, 221, 221);
+    height: 100vh;
+    position: absolute;
+    left: 19%;
+    margin-left: -3px;
+    top: 150px;
+  }
