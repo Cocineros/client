@@ -7,9 +7,10 @@ export default function Nav(){
         <>
         <nav>
             <div id="nav-logo-container">
+                <a href="/">
                 <img src={BumbuName} id="bumbu-name"/>
+                </a>
             </div>
-            <NavLink className="button" to ="">Home</NavLink>
         </nav>
         </>
     )
