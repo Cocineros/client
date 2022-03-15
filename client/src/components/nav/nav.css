@@ -1,8 +1,10 @@
 nav {
-    height:150px;
-    background-color: rgba(214,177,177,255);
+    height:17vh;
+    background-color: #B99566; 
+    opacity: 0.9;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .button {
@@ -14,4 +16,18 @@ nav {
     border: 2px solid rgb(199, 149, 149); 
     border-radius: 6px;
     padding: 5px 22px;
+
 }
+
+.nav-logo-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#bumbu-name{
+    height: 30vh;
+    margin-top: 8em;
+    margin-left: -4em;
+}
+

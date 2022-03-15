@@ -1,0 +1,20 @@
+
+#home-logo-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+#home-logo {
+height: 70vh;
+}
+
+#welcome-text-container {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2em;
+    line-height: 0.5em;
+    margin-top: -14vh;
+
+}
+
