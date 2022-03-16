@@ -28,6 +28,11 @@ h1 {
 
 .home-components {
     background-color: #f6f6e9;
+    margin-bottom: 5vh;
 }
 
+/* #buttons-container {
+    display: flex;
+justify-content: center;
+} */
 

@@ -1,4 +1,4 @@
-.testimonial-container {
+/* .testimonial-container {
     display: flex;
     height: 100vh;
     flex-direction: column;
@@ -11,24 +11,26 @@
     flex-direction: column;
     justify-content: space-around;
 
-}
+} */
 
-h1 {
-    vertical-align: middle;
+.section-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
 }
 
 h2 {
     width: 80%
 }
 
-.test1 {
+/* #test1 {
     width: 400px;
     display: flex;
     flex-direction: row-reverse;
 
 }
 
-.test2 {
+#test2 {
     width: 400px;
     left: 600px;
     display: flex;
@@ -36,12 +38,59 @@ h2 {
     right: 0;
 }
 
-.test3 {
+#test3 {
     width: 400px;
     display: flex;
     flex-direction: row-reverse;
 
+} */
+
+
+#test1 {
+    width: 25vw;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 25vh;
+
 }
 
+#test2-container {
+    width: 25vw;
+    /* left: 600px; */
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+
+#test2-text {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    justify-content: flex-start;
+
+}
+
+#test3 {
+    width: 25vw;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.parent-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.left-column{
+height: 70vh;
+margin-right: 5vw;
+}
+
+.right-column {
+    display: flex;
+    margin-left: 5vw;
+}
 
 

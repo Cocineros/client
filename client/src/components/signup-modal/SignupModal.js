@@ -4,7 +4,7 @@ import { Modal, Button } from 'antd';
 import './signupModal.css'
 import Signup from '../signup/Signup';
 
-export default function SignupModal(){
+export default function SignupModal() {
   const [isModalVisitble, setIsModalVisible] = useState(false);
 
   const showModal = () => {
@@ -18,27 +18,24 @@ export default function SignupModal(){
   const handleCancel = () => {
     setIsModalVisible(false);
   };
-    return (
-        <div className="landing-container">
-            <h1>my cookbook</h1>
-            <div className="buttons">
-            <Button className="buttons" id="signup-btn" onClick={showModal}>
-Sign up        </Button>
+  return (
+    <>
+      <div className="landing-container">
+        <Button className="buttons" id="signup-btn" onClick={showModal}>
+          Sign up        </Button>
         <Modal
           title="Create a new account"
           visible={isModalVisitble}
           onOk={handleOk}
           onCancel={handleCancel}
           footer={
-            <Button className="buttons" href="/dashboard" key="submit" onClick={handleOk}>
-                 Signup
-           </Button>}
+            <Button href="/dashboard" key="submit" onClick={handleOk}>
+              Signup
+            </Button>}
         >
-          <Signup/>
+          <Signup />
         </Modal>
-                {/* <NavLink className="button" to="/signup">Signup</NavLink>
-                <NavLink className="button" to="/login">Login</NavLink> */}
-            </div>
-        </div>
-    )
+      </div>
+    </>
+  )
 }

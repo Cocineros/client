@@ -17,7 +17,13 @@ export default function Welcome() {
                     </div>
                     <p className="welcome-text">Write and save your favorite recipes right here </p>
                     <p className="welcome-text">and access them from anywhere in the world!</p>
+                </div>
 
+                <div id="recipe-img">
+                    recipe image
+                </div>
+                <div id="recipe-img2">
+                    recipe image
                 </div>
             </div>
         </>

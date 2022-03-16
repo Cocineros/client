@@ -1,9 +1,9 @@
 .about-container {
     display: flex;
     justify-content: center;
-    height: 50vh;
+    height: 100vh;
 }
 
-h1 {
+/* h1 {
     vertical-align: middle;
-}
+} */
