@@ -24,6 +24,25 @@ export const ADD_PROFILE = gql`
   }
 `;
 
+export const REMOVE_PROFILE = gql `
+mutation removeProfile {
+  removeProfile {
+    _id
+    firstName
+    lastName
+    username
+    email
+    savedRecipes {
+      _id
+      name
+      description
+      ingredients
+      instructions
+    }
+  }
+}
+`;
+
 export const ADD_RECIPE = gql`
   mutation addRecipe($name: String!, $ingredients: String!, $instructions: String!, $description: String!) {
     addRecipe(name: $name) {
