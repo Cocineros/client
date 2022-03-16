@@ -1,0 +1,27 @@
+#recipe-page {
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+#dish-name-container {
+    vertical-align: center;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+#dish-name {
+    font-size: 3em;
+}
+
+#ingredients-container {
+    height: 40vh;
+    width: 60vw;
+    background-color: blue;
+}
+
+#directions-container{
+    background-color: aquamarine;
+}
