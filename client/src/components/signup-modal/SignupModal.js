@@ -28,10 +28,7 @@ export default function SignupModal() {
           visible={isModalVisitble}
           onOk={handleOk}
           onCancel={handleCancel}
-          footer={
-            <Button href="/dashboard" key="submit" onClick={handleOk}>
-              Signup
-            </Button>}
+          footer= {[]}
         >
           <Signup />
         </Modal>
