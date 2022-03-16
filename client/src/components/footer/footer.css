@@ -2,5 +2,12 @@
     height:100px;
     background-color: #cead83; 
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.footer-container a {
+    color: black;
+    font-size: 28px;
+    margin: 10px
 }

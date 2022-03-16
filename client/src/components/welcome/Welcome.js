@@ -22,9 +22,9 @@ export default function Welcome() {
                 <div id="recipe-img">
                     recipe image
                 </div>
-                <div id="recipe-img2">
+                {/* <div id="recipe-img2">
                     recipe image
-                </div>
+                </div> */}
             </div>
         </>
     )
