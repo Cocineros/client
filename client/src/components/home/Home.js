@@ -17,7 +17,14 @@ export default function Home() {
         <>
         <div class="home-components">
         <Welcome />
+        
         <div id="buttons-container">
+        <div id='thank-you'>
+                <p>thank you for supporting Bumbu and our vision
+
+                </p>
+
+            </div>
         <SignupModal/>
         <LoginModal />
         </div>

@@ -1,10 +1,24 @@
-/* .home-container {
+.home-components {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    flex-direction: column;
 
 }
 
+#buttons-container {
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#thank-you {
+    text-align: center;
+    height: 5vw;
+
+}
+
+/*
 h1 {
     margin: auto
 }
