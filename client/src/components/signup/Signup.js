@@ -30,6 +30,9 @@ export default function Signup() {
                     <input placeholder="Last Name" type="text" name="last name" id="lname" required="true" onChange={handleChange}/>
                 </div>
                 <div className="form-group">
+                    <input placeholder="Username" type="username" name="username" id="username" required="true" onChange={handleChange} />
+                </div>
+                <div className="form-group">
                     <input placeholder="Email" type="email" name="email" id="email" required="true" onChange={handleChange} />
                 </div>
                 <div className="form-group">
