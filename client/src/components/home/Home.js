@@ -7,6 +7,8 @@ import Footer from '../footer/Footer'
 import LoginModal from '../login-modal/LoginModal'
 import './home.css'
 // import LogoArtwork from '../../assets/logo-artwork.svg'
+import { BackTop } from 'antd';
+
 
 
 
@@ -15,12 +17,16 @@ export default function Home() {
         <>
         <div class="home-components">
         <Welcome />
+        <div id="buttons-container">
         <SignupModal/>
         <LoginModal />
+        </div>
         <About/>
         <Card/>
         <Testimonial/>
-        <Footer/>  
+        <Footer/> 
+        <BackTop />
+        {/* <strong className="site-back-top-basic">  </strong> */}
         </div>
         </>
     )
