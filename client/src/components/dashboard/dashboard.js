@@ -24,6 +24,7 @@ export default function Dashboard() {
 
     const onSearch = value => console.log(value);
     return (
+        <>
         <div className="dash-container">
             <Layout className ="layout">
             <Sider className="sidebar">
@@ -42,5 +43,9 @@ export default function Dashboard() {
             </Content>
             </Layout>
         </div>
+            <div>
+            <a href="/recipe">click here for recipe card </a>
+            </div>
+        </>
     )
 }

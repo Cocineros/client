@@ -15,6 +15,7 @@ import Signup from './components/signup/Signup';
 
 import 'antd/dist/antd.css';
 import Dashboard from './components/dashboard/dashboard';
+import Recipe from './components/recipe/Recipe'
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -47,6 +48,7 @@ function App() {
           <Route path='/login' element={ <Login />} />
           <Route path='/signup' element={ <Signup />} />
           <Route path='/dashboard' element={ <Dashboard />} />
+          <Route path='/recipe' element={ <Recipe />} />
         </Routes>
         {/* <Markdown /> */}
       </>
