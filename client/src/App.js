@@ -17,8 +17,10 @@ import 'antd/dist/antd.css';
 import Dashboard from './components/dashboard/dashboard';
 import Recipe from './components/recipe/Recipe'
 
+const url = process.env.NODE_ENV === 'development'
+            ? '/graphql' : 'https://pure-ravine-56956.herokuapp.com/graphql'
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: url,
 });
 
 const authLink = setContext((_, { headers }) => {
